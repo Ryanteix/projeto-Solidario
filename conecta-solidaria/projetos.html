@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore os projetos da Conecta Solidária, descubra oportunidades de voluntariado e saiba como apoiar nossas iniciativas.">
+  <meta name="theme-color" content="#176b4d">
+  <title>Projetos sociais | Conecta Solidária</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Conecta Solidária - página inicial"><span class="brand-mark" aria-hidden="true">+</span><span>conecta<span class="brand-light">solidária</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal"><span class="sr-only">Abrir menu</span><span></span><span></span><span></span></button>
+      <nav id="menu-principal" class="main-nav" aria-label="Navegação principal"><a href="index.html">Início</a><a class="active" href="projetos.html" aria-current="page">Projetos sociais</a><a href="index.html#sobre">Sobre nós</a><a href="index.html#contato">Contato</a><a class="nav-cta" href="cadastro.html">Quero participar <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="page-hero">
+      <div class="container page-hero-grid"><div><p class="eyebrow"><span class="eyebrow-dot"></span> Nossas iniciativas</p><h1>Juntos, podemos <span>ir mais longe.</span></h1><p>Conheça as causas que movem nossa comunidade e encontre a melhor forma de fazer parte dessa transformação.</p><div class="hero-actions"><a class="button button-primary" href="#lista-projetos">Explorar projetos <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#doacoes">Quero apoiar</a></div></div><img src="imagens/juntos.jpeg" alt="Voluntários colaborando em uma iniciativa comunitária"></div>
+    </section>
+
+    <section id="lista-projetos" class="section section-white">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Onde atuamos</p><h2>Projetos que fazem <span>a diferença</span></h2></div><p class="heading-note">Escolha uma causa para conhecer melhor e descobrir como participar.</p></div>
+        <div class="filter-bar" role="group" aria-label="Filtrar projetos por categoria">
+          <button class="filter-button is-selected" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-button" type="button" data-filter="educacao" aria-pressed="false">Educação</button>
+          <button class="filter-button" type="button" data-filter="alimento" aria-pressed="false">Alimentação</button>
+          <button class="filter-button" type="button" data-filter="ambiente" aria-pressed="false">Meio ambiente</button>
+        </div>
+        <div class="project-grid project-grid-large">
+          <article id="educacao" class="project-card filterable-card" data-category="educacao"><a class="project-image" href="cadastro.html?perfil=voluntario"><img src="imagens/educacao.png" alt="Crianças participando de atividade educativa" loading="lazy"><span class="project-tag">Educação</span></a><div class="project-body"><p class="project-kicker">Aprender abre caminhos</p><h3>Educação que aproxima</h3><p>Promovemos ações de apoio educacional, incentivo à leitura e troca de conhecimentos entre voluntários e comunidade.</p><div class="project-meta"><span>◷ Ações recorrentes</span><span>⌖ Comunidade local</span></div><a class="card-link" href="cadastro.html?perfil=voluntario">Quero participar <span aria-hidden="true">→</span></a></div></article>
+          <article id="alimento" class="project-card filterable-card" data-category="alimento"><a class="project-image" href="cadastro.html?perfil=voluntario"><img src="imagens/alimentacao.png" alt="Equipe organizando alimentos para doação" loading="lazy"><span class="project-tag">Alimentação</span></a><div class="project-body"><p class="project-kicker">Compartilhar é cuidar</p><h3>Mesa Compartilhada</h3><p>Articulamos campanhas de arrecadação e parcerias para apoiar redes comunitárias de distribuição de alimentos.</p><div class="project-meta"><span>◷ Campanhas mensais</span><span>⌖ Pontos parceiros</span></div><a class="card-link" href="cadastro.html?perfil=voluntario">Quero participar <span aria-hidden="true">→</span></a></div></article>
+          <article id="ambiente" class="project-card filterable-card" data-category="ambiente"><a class="project-image" href="cadastro.html?perfil=voluntario"><img src="imagens/meio ambiente.png" alt="Mãos cuidando de plantas em ação ambiental" loading="lazy"><span class="project-tag">Meio ambiente</span></a><div class="project-body"><p class="project-kicker">Cuidar hoje, preservar amanhã</p><h3>Comunidade Verde</h3><p>Organizamos mutirões de cuidado de espaços públicos, plantio e educação ambiental para todas as idades.</p><div class="project-meta"><span>◷ Eventos programados</span><span>⌖ Espaços públicos</span></div><a class="card-link" href="cadastro.html?perfil=voluntario">Quero participar <span aria-hidden="true">→</span></a></div></article>
+        </div>
+        <p id="filter-empty" class="filter-empty" hidden>Nenhum projeto encontrado nesta categoria.</p>
+        <p class="disclaimer">Os projetos apresentados são exemplos ilustrativos para fins acadêmicos. Ajuste as informações conforme as iniciativas reais da ONG.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container volunteer-grid"><div><p class="eyebrow">Seu tempo tem valor</p><h2>Faça parte da mudança <span>como voluntário.</span></h2><p class="muted">Você pode contribuir com suas habilidades, disposição e ideias. Escolha uma área de interesse e cadastre-se para demonstrar interesse em futuras oportunidades.</p><ul class="check-list"><li>Conheça oportunidades alinhadas aos seus interesses.</li><li>Colabore com equipes e ações comunitárias.</li><li>Registre sua participação e aprenda com a experiência.</li></ul><a class="button button-primary" href="cadastro.html?perfil=voluntario">Cadastrar interesse <span aria-hidden="true">→</span></a></div><img src="imagens/voluntario.png" alt="Voluntários planejando uma atividade em equipe" loading="lazy"></div>
+    </section>
+
+    <section id="doacoes" class="section section-white">
+      <div class="container donation-grid"><div class="donation-visual"><img src="imagens/maos.png" alt="Pessoas participando de uma ação solidária" loading="lazy"><div class="donation-stamp"><span aria-hidden="true">♥</span><strong>Toda ajuda<br>faz diferença</strong></div></div><div class="donation-copy"><p class="eyebrow">Apoie nossas iniciativas</p><h2>Doe para fortalecer <span>boas ideias.</span></h2><p class="muted">Sua contribuição pode apoiar materiais educativos, campanhas de alimentos e atividades comunitárias. Para manter a transparência, toda arrecadação real deve ter destino, comprovantes e prestação de contas publicados pela organização.</p><div class="donation-options"><div><span class="donation-option-icon" aria-hidden="true">↗</span><div><h3>Contribuição financeira</h3><p>Consulte os canais oficiais da ONG antes de realizar qualquer transferência.</p></div></div><div><span class="donation-option-icon" aria-hidden="true">＋</span><div><h3>Doação de itens</h3><p>Entre em contato para confirmar quais itens são necessários e como entregar.</p></div></div></div><a class="button button-primary" href="cadastro.html?perfil=doador">Quero apoiar a ONG</a><p class="small-note">Este site demonstrativo não recebe nem processa pagamentos reais.</p></div></div>
+    </section>
+
+    <section id="transparencia" class="transparency-section"><div class="container transparency-inner"><div><p class="eyebrow eyebrow-light">Compromisso com a confiança</p><h2>Transparência em cada passo.</h2><p>Uma organização responsável apresenta suas metas, resultados e uso de recursos de forma clara e acessível.</p></div><div class="transparency-points"><div><span aria-hidden="true">✓</span> Objetivos e metas publicados</div><div><span aria-hidden="true">✓</span> Resultados acompanhados</div><div><span aria-hidden="true">✓</span> Relatórios acessíveis à comunidade</div><p class="small-note">Relatórios reais devem ser adicionados pela ONG antes da publicação oficial.</p></div></div></section>
+  </main>
+  <footer id="contato" class="site-footer"><div class="container footer-main"><div class="footer-brand-col"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">+</span><span>conecta<span class="brand-light">solidária</span></span></a><p>Conectando pessoas, fortalecendo comunidades e construindo possibilidades.</p><div class="social-links" aria-label="Redes sociais"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a></div></div><div class="footer-col"><h2>Explore</h2><a href="index.html">Início</a><a href="projetos.html">Projetos sociais</a><a href="cadastro.html">Cadastro</a></div><div class="footer-col"><h2>Participe</h2><a href="cadastro.html?perfil=voluntario">Seja voluntário</a><a href="#doacoes">Como doar</a><a href="#transparencia">Transparência</a></div><div class="footer-col footer-contact"><h2>Fale com a gente</h2><p>contato@conectasolidaria.org.br</p><p>(11) 4000-1234</p><p>São Paulo — SP, Brasil</p><p class="small-note">Dados de contato demonstrativos.</p></div></div><div class="container footer-bottom"><p>© <span data-current-year>2026</span> Conecta Solidária. Projeto demonstrativo acadêmico.</p><a href="#conteudo">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
